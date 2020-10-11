@@ -137,8 +137,18 @@ body{
 }
 .imagen-princ:hover .hover-galeria
 {
-    transform: scale(1);
+    transform: scale(1);  
 } 
+.imagen-princ:hover .overlay-texto {
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	white-space: nowrap;
+	transform: translate(-50%, -50%);
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
  .redes-sociales {
      padding: 5px;
 background-color: rgb(27, 26, 11);
