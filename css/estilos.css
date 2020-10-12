@@ -46,7 +46,7 @@ body{
         display: none;
         position: absolute;
         border: 1px solid #fbfdfd;
-        background-color:  rgb(146, 4, 165);
+        background-color:  rgb(2, 0, 0)
     }
     
     nav ul li:hover ul {
@@ -61,30 +61,20 @@ body{
         padding: 1rem 2rem;
         line-height: unset;
         white-space: nowrap;
-        color: rgb(252, 250, 251);
+        color: rgb(255, 255, 255);
        
     }
     
     nav ul li ul li a:hover {
-        background-color: #dadada;
+        background-color:rgba(255, 255, 255, 0.973);
     }
-    
-    
 
-
-
-
-
-    
-    section{
+        section{
         background-color:  rgb(13, 13, 34);
         
        
     } 
    
-    
-
-
     .imgenes_principales{
         background: #f2f2f2f2;
         
@@ -92,7 +82,7 @@ body{
     }
     .fondo_titulo{
         
-        background-color: rgb(119, 143, 119);
+        background-color: rgb(26, 2, 34);
       }
       
       .titulo {
