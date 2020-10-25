@@ -5,42 +5,54 @@
     <title></title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"crossorigin="">
-     <link rel="stylesheet" href="estilos.css">
+     <link rel="stylesheet" href="./estilos/estilocarrito.css">
+     <link rel="icon" href="../flavicon/flavicon.jpg">
    
 </head>
 <body>
     <nav >
             
         <ul>
-            <li><a href="index.html">Inicio</a></li>
+            <li><a href="../index.html">Inicio</a></li>
             <li><a href="#">Servicios</a>
                 <ul>
-                    <li><a href="././Carrito/galeriacompra.html">Suplementos</a></li>
-                    <li><a href="#">Quema grasa</a></li>
+                    <li><a href="../carrito/hombres.html">Suplementos</a></li>
+                    <li><a href="../carrito/mujeres.html">Quema grasa</a></li>
                     
                 </ul>
             </li>
             <li><a href="#">Sobre nosotros</a></li>
-            <li><a href="ubicaion/nos_ubicamos.html">Nos Ubicamos</a></li>
+            <li><a href="../ubicaion/nos_ubicamos.html">Nos Ubicamos</a></li>
         </ul>   
     </nav>
     
     <div class="container">
         <div class="row">
-            <!-- Elementos generados a partir del JSON -->
+        
             <main id="items" class="col-sm-8 row"></main>
-            <!-- Carrito -->
+            
             <aside class="col-sm-4">
                 <h2>Carrito</h2>
-                <!-- Elementos del carrito -->
+               
                 <ul id="carrito" class="list-group"></ul>
               
-                <!-- Precio total -->
+                
                 <p class="text-right">Total: <span id="total"></span>Bs;</p>
                 <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+                <div id="conversor">
+                    <p>Conversor de Moneda</p>
+                    <input type="text" size=15 id="medida"/>
+                    <select id="categoria">
+                        <option value="1">Dolar</option>
+                        <option value="2">Euros</option>
+                        <option value="3">Reales</option>
+                    </select>
+                    <input type="button" size=3 value="Transformar" onclick="convertir()"/>
+                </div>
+                <div id="resultado">Resultado</div>
             </aside>
         </div>
     </div>
-    <script src="funciones.js"></script>
+    <script src="./funciones/funcionmujer.js"></script>
 </body>
 </html>
