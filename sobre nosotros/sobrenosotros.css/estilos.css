@@ -90,8 +90,10 @@ body{
 
 
 
-p {
+.historia {
     font-size: 16px;
+    background: #d6d5d5;
+    
 }
 
 
@@ -99,7 +101,7 @@ p {
 .tituloclientes{
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #d6d5d5;
+   
     font: oblique bold 120% cursive;
 
 }
