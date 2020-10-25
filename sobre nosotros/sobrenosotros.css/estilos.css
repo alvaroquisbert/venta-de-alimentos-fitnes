@@ -99,16 +99,19 @@ p {
 .tituloclientes{
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #4d0686;
+    background-color: #d6d5d5;
+    font: oblique bold 120% cursive;
+
 }
 .cards{
 display: flex;
 justify-content: space-evenly;
 padding-top: 20px;
 padding-bottom: 20px;
+background: #3f3f3f;
 }
 .cards .card{
-background: #4d0686;
+background: #370361;
 display: flex;
 width: 46%;
 height: 100px;
@@ -117,6 +120,7 @@ justify-content: space-evenly;
 border-radius: 5px;
 box-shadow: 0 0 6px 0 rgba(0, 0, 0.6);
 }
+
 .cards .card img{
 width: 100px;
 height: 100px;
