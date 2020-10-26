@@ -38,18 +38,20 @@
                 <ul id="carrito" class="list-group"></ul>
               
               
-                <p class="text-right">Total: <span id="total"></span>Bs;</p>
+                <p class="text-right">Total de su compra:  <span id="total"></span>Bs;</p>
                 <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
                 
                 <div id="conversor">
-                    <p>usted es del exterior convierta su moneda:)</p>
+                    <p>usted es del exterior convierta su moneda:) 
+                        </p>
+                   
                     <input type="text" size=15 id="medida"/>
                     <select id="categoria">
                         <option value="1">Dolar</option>
                         <option value="2">Euros</option>
                         <option value="3">Reales</option>
                     </select>
-                    <input type="button" size=3 value="Transformar" onclick="convertir()"/>
+                    <input  class="transformar" type="button" size=3 value="Transformar" onclick="convertir()" />
                 </div>
                 <div id="resultado">Resultado</div>
             </ul>

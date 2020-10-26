@@ -69,46 +69,83 @@ body{
         font-size: small;
     }
        
-    }
+    
     
     nav ul li ul li a:hover {
         background-color:rgba(255, 255, 255, 0.973);
     }
-    
-    
-    
-    
-    
-    
-    section{
-        background-color: rgb(22, 1, 1);
-    }
-    .galeria-princ{
 
- display: inline-flex;
-      
-     
-    }
+.titulo_ubicaion{color: #fbfdfd;
+text-align: center;
+padding-top: 40px;
+color: rgb(147, 206, 255);
+
+font: oblique bold 220% cursive;
+}
+section{
+    background-color:  rgb(13, 13, 34);
     
+   
+} 
 
-    .imagen-princ{
-        overflow: hidden;
-        position: relative;
-       
-        box-shadow: 0 0 6px 0 rgba(0, 0, 0. 5);
-    }
-    .imagen-princ > img{
-        width: 500px;
-        height: 395px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 60px;
-        padding-right:60px;
-        text-align: center;
-        position: relative;
-
-        } 
+.imgenes_nosotros{
+    background: #f2f2f2f2;
   
+
+}
+
+.galeria-nos{
+    display: flex;
+   
+
+   
+   
+}
+.imagen-nos{
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0. 5);
+}
+.imagen-nos > img{
+    width: 400PX;
+    height: 385px;
+    }
+.hover-galeria{
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    background: rgba(212, 212, 212, 0.473);
+    transform: scale(0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+	transition: .3s ease;
+}
+.hover-galeria{
+color: rgb(0, 0, 0);
+width: 100%;
+font-style: oblique;
+font-weight: 850;
+
+
+}
+.imagen-nos:hover .hover-galeria
+{
+transform: scale(1);  
+} 
+.imagen-nos:hover .overlay-texto {
+top: 80%;
+left: 50%;
+position: absolute;
+white-space: nowrap;
+transform: translate(-50%, -50%);
+border-top: 1px solid rgb(253, 0, 0);
+border-bottom: 1px solid  rgb(253, 0, 0);
+} 
 
 
 
