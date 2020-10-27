@@ -67,6 +67,7 @@ body{
     }
     .sub{
         font-size: small;
+        padding-top: 1px;
     }
        
     
@@ -129,7 +130,7 @@ section{
 color: rgb(0, 0, 0);
 width: 100%;
 font-style: oblique;
-font-weight: 850;
+font-weight: 85;
 
 
 }

@@ -18,7 +18,7 @@
             id:3,
             nombre: 'suplemento',
             precio: 34,
-            imagen: src="imghombres/3.jpg" 
+            imagen: src="imghombres/3.jpg"
         },
         {
             id:4,
