@@ -146,7 +146,7 @@
            
             let miNodo = document.createElement('li');
             miNodo.classList.add('list-group-item', 'text-right', 'mx-2');
-            miNodo.textContent = `${numeroUnidadesItem} x ${miItem[0]['nombre']} - ${miItem[0]['precio']}€`;
+            miNodo.textContent = `${numeroUnidadesItem} x ${miItem[0]['nombre']} = ${miItem[0]['precio']} Bs`;
            
             let miBoton = document.createElement('button');
             miBoton.classList.add('btn', 'btn-danger', 'mx-5');
