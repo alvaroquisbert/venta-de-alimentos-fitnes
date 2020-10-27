@@ -7,6 +7,7 @@
             nombre: 'multivitaminico marca on',
             precio: 85,
             imagen: src="imghombres/1.jpg" 
+           
         },
         {
             id:2,

@@ -75,9 +75,9 @@ nav ul li ul li a:hover {
     background-color:rgba(218, 218, 218, 0.973);
 }
 .container{
-background-color: rgb(255, 255, 255);
+background-color: rgb(255, 255, 255);}
 
-}
+
 .conversor{
     padding-top: 15px;
     padding-left: 9px;
